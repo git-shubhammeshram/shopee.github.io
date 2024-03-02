@@ -1,0 +1,82 @@
+/* Navbar */
+.bg-custom{
+    background-color: #0b7ea1;
+}
+
+.navbar-light .navbar-brand {
+    color: white;
+}
+
+.navbar-nav .nav-item .nav-link{
+    color: white;
+}
+
+.navbar-light .navbar-text a {
+    color: white
+}
+
+#logo{
+    width: 50px;
+}
+/* Navbar */
+
+/* Jumbotron */
+.jumbotron{
+    background:#0b7ea1 ;
+    display: flex;
+    padding: 2rem 4rem;
+    flex-direction: row;
+
+}
+
+#textimg{
+    width: 500px;
+}
+
+
+/* Jumbotron */
+
+/* About */
+#brandname{
+    color: #0b7ea1;
+}
+
+#about p{
+    text-align: justify;
+    user-select: none;
+}
+/* About */
+
+/* Products */
+.card-footer{
+    text-align: center;
+}
+
+#producticon {
+    width: 40px;
+    margin-top: 10px;
+    position: absolute;
+    top: 25px;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.card:hover #producticon{
+    opacity: 1;
+}
+/* Products */
+
+/* footer */
+.footer{
+    display: flex;
+    text-align: center;
+    margin-top: 100px;
+    height: 250px;
+    background-color: #0b7ea1;
+
+}
+
+.footer ul{
+    list-style-type: none;
+}
+/* footer */
